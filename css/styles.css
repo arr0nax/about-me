@@ -18,7 +18,7 @@
 
 .jumbotron h3 {
   padding-top: 3vh;
-  padding-bottom: 6vh;
+  padding-bottom: 1vh;
   margin: 0;
 }
 
@@ -97,4 +97,38 @@ body {
 
 #email span {
   background: rgba(0, 255, 255, 0.5);
+}
+
+#sites .row {
+  margin: 0;
+  height: 45vh;
+}
+
+#sites h1 {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+#wikipedia:hover {
+  background-image: url(../img/wikipedia.png);
+  background-position: center;
+    background-size: cover;
+}
+
+#baseball:hover {
+  background-image: url(../img/baseball.png);
+  background-position: center;
+    background-size: cover;
+}
+
+#pets:hover {
+  background-image: url(../img/faux-pet.png);
+  background-position: center;
+    background-size: cover;
+}
+
+#vacation:hover {
+  background-image: url(../img/vacation.png);
+  background-position: center;
+  background-size: cover;
 }
