@@ -124,12 +124,12 @@ body {
 
 #music .row {
   margin: 0;
-  height: 45vh;
+  height: 40vh;
 }
 
 #music h1 {
-  padding-top: 20vh;
-  padding-bottom: 20vh;
+  padding-top: 17vh;
+  padding-bottom: 17vh;
 }
 
 #wikipedia:hover {
