@@ -46,6 +46,10 @@ body {
   padding-top: 10vh;
 }
 
+#buttons {
+  padding-top: 10vh;
+}
+
 #buttons:hover {
   background-image: url(../img/pentagram.png);
   background-size: 100% 100%;
@@ -110,25 +114,39 @@ body {
 }
 
 #wikipedia:hover {
-  background-image: url(../img/wikipedia.png);
+  background-image: url(../img/wikipedia-copy.png);
   background-position: center;
     background-size: cover;
 }
 
 #baseball:hover {
-  background-image: url(../img/baseball.png);
+  background-image: url(../img/baseball-copy.png);
   background-position: center;
     background-size: cover;
 }
 
 #pets:hover {
-  background-image: url(../img/faux-pet.png);
+  background-image: url(../img/faux-pet-copy.png);
   background-position: center;
     background-size: cover;
 }
 
 #vacation:hover {
-  background-image: url(../img/vacation.png);
+  background-image: url(../img/vacation-copy.png);
   background-position: center;
   background-size: cover;
+}
+
+.col-md-4 h1 {
+  color: white;
+}
+
+.col-md-12 h1 {
+  color: white;
+}
+
+@media screen and (max-width:992px) {
+  .row * *{
+    padding: 0;
+  }
 }
