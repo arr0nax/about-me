@@ -190,7 +190,19 @@ body {
 }
 
 @media screen and (max-width:992px) {
-  .row * *{
-    padding: 0;
+  #sites h1{
+    padding: 3vh;
+  }
+
+  #music h1 {
+    padding: 7vh;
+  }
+
+  #buttons h2 {
+    padding: 5vh
+  }
+
+  .footer {
+    margin-top: 25vh;
   }
 }
