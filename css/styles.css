@@ -11,8 +11,8 @@
   padding-bottom: 3vh;
 }
 
-.jumbotron h1:hover {
-  background-image: url(../img/self-portrait.png);
+.jumbotron:hover {
+  background-image: url(../img/self-portrait.gif);
   background-position: center;
 }
 
@@ -22,10 +22,6 @@
   margin: 0;
 }
 
-.jumbotron h3:hover {
-  background-image: url(../img/doot.gif);
-  background-position: center;
-}
 
 body {
   background-image: url(../img/background.jpg);
@@ -39,6 +35,10 @@ body {
   height: 30vh;
   margin: 0;
   padding: 0;
+}
+
+.row div a {
+  color: white;
 }
 
 .container-fluid .row:nth-child(2) .col-md-6 h2 {
@@ -56,4 +56,23 @@ body {
   margin: 0;
   padding: 0;
   padding-left: 13vh;
+}
+
+.footer:hover {
+  background-image: url(../img/doot.gif);
+  background-position: center;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar:hover {
+  background-image: url(../img/doot.gif);
+  background-position: center;
+}
+
+.navbar:hover li {
+  color: white;
 }
