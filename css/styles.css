@@ -81,3 +81,20 @@ body {
 .art img {
   width: 100%
 }
+
+.container-fluid p {
+  text-align: center;
+  margin-top: 5vh;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  font-size: 10vh;
+}
+
+.container-fluid p:hover {
+  background-image: url(../img/knife.png);
+  background-size: 100% 100%;
+}
+
+#email span {
+  background: rgba(0, 255, 255, 0.5);
+}
