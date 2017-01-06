@@ -5,6 +5,6 @@
 ## Provides information about me and links to my work
 
 ## Known bugs
-* nothing at the moment - do tell if you find any
+* home page is slightly larger than 100vh
 
 ### Copyright Clayton C. Collins 2017

@@ -1,5 +1,5 @@
 .jumbotron {
-  height: 30vh;
+  height: 25vh;
   background-color: rgba(0, 0, 0, 0);
   margin: 0;
   padding: 0;
@@ -32,7 +32,7 @@ body {
 .row {
   text-align: center;
   background-color: rgba(0, 0, 0, 0);
-  height: 30vh;
+  height: 25vh;
   margin: 0;
   padding: 0;
   margin-bottom: 2vh;
@@ -108,9 +108,18 @@ body {
   height: 45vh;
 }
 
+#sites .row:last-of-type {
+  height: 30vh;
+}
+
 #sites h1 {
   padding-top: 20vh;
   padding-bottom: 20vh;
+}
+
+#baseball h1 {
+  padding-top: 13vh;
+  padding-bottom: 10vh;
 }
 
 #music .row {
@@ -131,8 +140,8 @@ body {
 
 #baseball:hover {
   background-image: url(../img/baseball-copy.png);
-  background-position: center;
     background-size: cover;
+
 }
 
 #pets:hover {
