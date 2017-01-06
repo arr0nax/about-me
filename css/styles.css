@@ -214,4 +214,75 @@ body {
   .footer {
     margin-top: 25vh;
   }
+
+  #wikipedia {
+    background-image: url(../img/wikipedia-copy.png);
+    background-position: center;
+      background-size: cover;
+  }
+
+  #baseball {
+    background-image: url(../img/baseball-copy.png);
+      background-size: cover;
+      margin-top: 18vh;
+
+  }
+
+  #pets {
+    background-image: url(../img/faux-pet-copy.png);
+    background-position: center;
+      background-size: cover;
+  }
+
+  #vacation {
+    background-image: url(../img/vacation-copy.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #macrophage {
+    background-image: url(../img/macrophage.png);
+    background-position: center;
+      background-size: cover;
+  }
+
+  #recent-tracks {
+    background-image: url(../img/recent-tracks.png);
+    background-position: center;
+      background-size: cover;
+  }
+
+  #chiptunes {
+    background-image: url(../img/chiptunes.png);
+    background-position: center;
+      background-size: cover;
+  }
+
+  #videos {
+    background-image: url(../img/videos.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .jumbotron {
+    background-image: url(../img/self-portrait.png);
+    background-position: center;
+  }
+  #buttons {
+    background-image: url(../img/pentagram.png);
+    background-size: 100% 100%;
+
+  }
+  .footer {
+    background-image: url(../img/doot.gif);
+    background-position: center;
+  }
+  .navbar {
+    background-image: url(../img/doot.png);
+    background-position: center;
+  }
+  .container-fluid p{
+    background-image: url(../img/knife.png);
+    background-size: 100% 100%;
+  }
 }
